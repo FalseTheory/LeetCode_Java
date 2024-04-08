@@ -62,5 +62,5 @@ for image_path, info in image_info.items():
     print(f"Размер файла: {info['file_size_kb']:.2f} KB")
     print()
 
-resize_large_png('.')
-change_color_png('.')
+resize_large_png(directory_path)
+change_color_png(directory_path)
