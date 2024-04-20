@@ -1,6 +1,10 @@
 package productOfArrayExceptSelf;
 
 public class ProductOfArrayExceptSelf {
+
+    public static void main(String[] args) {
+
+    }
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
         int[] prefixArr = new int[n];
