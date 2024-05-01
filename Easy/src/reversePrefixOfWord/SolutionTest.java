@@ -12,6 +12,7 @@ public class SolutionTest {
         String expectedRes1 = "dcbaefd";
 
         Assertions.assertEquals(expectedRes1, Solution.reversePrefix(word1,ch1));
+        Assertions.assertEquals(expectedRes1, Solution.reversePrefix2(word1,ch1));
     }
     @Test
     public void solutionTest2(){
@@ -20,6 +21,7 @@ public class SolutionTest {
         String expectedRes1 = "zxyxxe";
 
         Assertions.assertEquals(expectedRes1, Solution.reversePrefix(word1,ch1));
+        Assertions.assertEquals(expectedRes1, Solution.reversePrefix2(word1,ch1));
     }
     @Test
     public void solutionTest3(){
@@ -28,6 +30,7 @@ public class SolutionTest {
         String expectedRes1 = word1;
 
         Assertions.assertEquals(expectedRes1, Solution.reversePrefix(word1,ch1));
+        Assertions.assertEquals(expectedRes1, Solution.reversePrefix2(word1,ch1));
     }
 
 }
