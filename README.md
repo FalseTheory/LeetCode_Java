@@ -1,2 +1,5 @@
 # LeetCode_Java
-Repo for leetCode problems solved in java
+Задачи распределены по уровню сложности.
+
+## ToDO
+Покрыть тестами все задания
